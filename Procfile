@@ -1,2 +1,2 @@
 web: python -m http.server $PORT
-worker: python ab.py
+worker: python -m http.server --directory abo
